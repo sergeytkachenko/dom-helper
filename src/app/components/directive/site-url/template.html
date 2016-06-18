@@ -1,0 +1,8 @@
+<md-input-container class="md-block">
+	<label>Enter site url</label>
+	<input md-maxlength="30" required md-no-asterisk name="description" ng-model="project.description">
+	<div ng-messages="projectForm.description.$error">
+		<div ng-message="required">This is required.</div>
+		<div ng-message="md-maxlength">The name has to be less than 30 characters long.</div>
+	</div>
+</md-input-container>

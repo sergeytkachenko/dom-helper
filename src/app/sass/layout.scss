@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	height: 60px;
+	//border-bottom: 1px solid #dcdcdc;
+	padding-right: 255px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background-color: #fff;
+	width: 100%;
+}
+
+.right {
+	width: 255px;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	border-left: 1px solid #dcdcdc;
+	z-index: 2;
+}
+
+.center {
+	padding-right: 255px;
+	min-height: 100vh;
+	padding-top: 60px;
+}
